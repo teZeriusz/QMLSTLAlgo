@@ -16,9 +16,11 @@ TARGET = QMLSTLAlgo
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    stlalgos.cpp
 
-HEADERS  +=
+HEADERS  += \
+    stlalgos.h
 
 OTHER_FILES += \
     main.qml
