@@ -12,8 +12,19 @@ ApplicationWindow {
 
     menuBar: MenuBar {
         Menu {
-            title: "raz t"
-            MenuItem {text: "raz"}
+            title: "generate"
+            MenuItem {
+                text: "in1"
+                onTriggered: {
+                 //TODO write generate 1
+                }
+            }
+            MenuItem {
+                text: "in2"
+                onTriggered: {
+                 //TODO write generate 2
+                }
+            }
         }
         Menu {
             title: "dwa t"
